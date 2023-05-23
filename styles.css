@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Estilo de fuente para el cuerpo del documento */
+    background-image: url('imagenhtml.jpeg'); /* Imagen de fondo */
+    background-size: cover; /* Ajustar la imagen de fondo al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen de fondo */
+}
+
+h1 {
+    text-align: center; /* Centrar el texto */
+    background-color: black; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con opacidad */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px auto; /* Margen con auto para centrar horizontalmente */
+    max-width: 600px; /* Ancho máximo */
+}
+
+#asteroid-info, #more-asteroids-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con opacidad */
+    margin: 20px auto; /* Margen con auto para centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    max-width: 600px; /* Ancho máximo */
+}
+
+#more-asteroids-btn {
+    display: block; /* Mostrar como bloque */
+    margin: 20px auto; /* Margen con auto para centrar horizontalmente */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    color: #fff; /* Color de texto */
+    background-color: #007BFF; /* Color de fondo */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.2s ease-in-out; /* Transición suave al cambiar el color de fondo */
+}
+
+#more-asteroids-btn:hover {
+    background-color: #0056b3; /* Color de fondo al pasar por encima */
+}
+
+.asteroid-card {
+    margin-top: 20px; /* Margen superior */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+}
+
+.asteroid-card h2 {
+    margin: 0 0 10px; /* Margen inferior */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+.asteroid-card p {
+    margin: 0 0 10px; /* Margen inferior */
+}
